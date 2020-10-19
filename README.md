@@ -1,2 +1,3 @@
 # coderbyte
 challenges
+display solutions
