@@ -5,14 +5,14 @@ function findSubString(&$str, &$pat)
     if (!$keys)
         echo "No such window exists";
     $x = 0;
-    $start = 0;
+    $start = 'a';
     $end = 0;
     $patNum = 0;
     $pattern = $keys['splitPat'];
     $lowestNumber = count($keys['mainString']);// to set the lowest number between chars we ask
     while ($keys) {
         if (in_array($keys['mainString'][$x], $keys['splitPat'])) {// if key from main string in pattern
-            if ($start == 0)
+            if ($start == 'a')
                 $start = $x;//set start index
             else
                 $end = $x;//set end index
@@ -22,15 +22,21 @@ function findSubString(&$str, &$pat)
             if (count($pattern) == 0) {// if we get all chars pattern in main string reset all values and set the result
                 $x = $keys['keys'][$patNum];// to start search from the index we end and remove un related chars
                 $patNum++;
-                $res = $end - $start;
-                if ($lowestNumber > $res) {
-                    $lowestNumber = $res;
-                    $startEndChar = ['start' => $start, 'end' => $end];// set start and and keys
+                if ($start == 0 && $end == 0) {
+                    $startEndChar = ['start' => 0, 'end' => 0];// set start and and keys
+                    break;
                 }
-                $start = 0;
+                $startEndChar1[] = ['start' => $x == 0 ? 0 : $start, 'end' => $end, 'res' => $end - $start
+                ,'test' => 8-0];// set start and and keys
+
+                $res = $end - $start;
+                if ($lowestNumber >= $res) {
+                    $lowestNumber = $res;
+                    $startEndChar = ['start' => $x == 0 ? 0 : $start, 'end' => $end];// set start and and keys
+                }
+                $start = 'a';
                 $end = 0;
                 $pattern = $keys['splitPat'];// reset patern to reloop
-
             }
             if (end($keys['keys']) == $x) // end loop
                 break;
@@ -39,11 +45,10 @@ function findSubString(&$str, &$pat)
         if ($x > 10000)// end loop after 10000 if condition doesnt work
             break;
     }
-
     if ($startEndChar)
         return 'Smallest window is : ' . implode(array_slice($keys['mainString'], $startEndChar['start'], (($startEndChar['end'] + 1) - $startEndChar['start'])));// cut result from array to return it as string
     else
-        echo "No such window exists";
+        return "No such window exists";
 }
 
 function getBlocks($str, $pat)
@@ -63,8 +68,9 @@ function getBlocks($str, $pat)
     $result['keys'] = array_unique($keys);// all indexes of chars in the main string we need to search about
     return $result;
 }
-    $str = "ahffaksfajeeubsne";
-$pat = "jefaa";
+
+$str = "aadfhkksemckelloe";
+$pat = "aaf";
 echo findSubString($str, $pat);
 
 ?>
