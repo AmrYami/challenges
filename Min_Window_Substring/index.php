@@ -27,7 +27,7 @@ function findSubString(&$str, &$pat)
                     break;
                 }
                 $startEndChar1[] = ['start' => $x == 0 ? 0 : $start, 'end' => $end, 'res' => $end - $start
-                ,'test' => 8-0];// set start and and keys
+                    ,'test' => 8-0];// set start and and keys
 
                 $res = $end - $start;
                 if ($lowestNumber >= $res) {
@@ -69,8 +69,8 @@ function getBlocks($str, $pat)
     return $result;
 }
 
-$str = "aadfhkksemckelloe";
-$pat = "aaf";
+$str = "this is a test string";
+$pat = "tist";
 echo findSubString($str, $pat);
 
 ?>
