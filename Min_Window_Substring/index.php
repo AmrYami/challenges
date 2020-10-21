@@ -76,7 +76,7 @@ function getBlocks($str, $pat)
 }
 
 $str = "this is a test string";
-$pat = "g";
+$pat = "tist";
 echo findSubString($str, $pat);
 
 ?>
