@@ -1,0 +1,6 @@
+/vendor
+/.idea
+/.history
+/.vagrant
+/nbproject/private/
+/backOld
