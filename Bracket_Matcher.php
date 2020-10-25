@@ -12,13 +12,12 @@ function BracketMatcher($str)
 
 function RemoveBrackets($string)
 {
-    $result = $string;
-    if (preg_match('/\(\)/', $result))// if string has what we need
-        $result = preg_replace('/\(\)/', '', $string);// remove chars from string
-    if (preg_match('/\(\)/', $result))// if string has what we need
-        $result = RemoveBrackets($result); // recursive
-    return $result;
+    if (preg_match('/\(\)/', $string))// if string has what we need
+        $string = preg_replace('/\(\)/', '', $string);// remove chars from string
+    if (preg_match('/\(\)/', $string))// if string has what we need
+        $string = RemoveBrackets($string); // recursive
+    return $string;
 }
 
 // keep this function call here
-echo BracketMatcher('fge ts(fop en(p hp2 ( 3)4 aa d://st din, r))');
+echo BracketMatcher('fge ts(fop en(p hp2 ( 34 aa d://st din, r))');
