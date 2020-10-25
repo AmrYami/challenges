@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e930e3-2a36-4f4d-8d51-c219100b726f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Tree_Constructor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tree_Constructor/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bracket_Matcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Min_Window_Substring/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Min_Window_Substring.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Min_Window_Substring/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree_Constructor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tree_Constructor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree_Constructor/readme.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +30,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eprofitcrm-newphase" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -48,6 +57,11 @@
       <workItem from="1603182787535" duration="725000" />
       <workItem from="1603223240646" duration="1423000" />
       <workItem from="1603239662634" duration="5062000" />
+      <workItem from="1603270342484" duration="599000" />
+      <workItem from="1603353717221" duration="678000" />
+      <workItem from="1603543222687" duration="599000" />
+      <workItem from="1603615985032" duration="1270000" />
+      <workItem from="1603651738094" duration="7130000" />
     </task>
     <servers />
   </component>
@@ -55,10 +69,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="724" y="300" key="FileChooserDialogImpl" timestamp="1603239659929">
+    <state x="724" y="300" width="530" height="596" key="FileChooserDialogImpl" timestamp="1603617949765">
       <screen x="59" y="24" width="1861" height="1176" />
     </state>
-    <state x="724" y="300" key="FileChooserDialogImpl/59.24.1861.1176@59.24.1861.1176" timestamp="1603239659929" />
+    <state x="724" y="300" width="530" height="596" key="FileChooserDialogImpl/59.24.1861.1176@59.24.1861.1176" timestamp="1603617949765" />
+    <state x="738" y="507" width="500" height="181" key="NewPhpFileDialog" timestamp="1603658814066">
+      <screen x="59" y="24" width="1861" height="1176" />
+    </state>
+    <state x="738" y="507" width="500" height="181" key="NewPhpFileDialog/59.24.1861.1176@59.24.1861.1176" timestamp="1603658814066" />
     <state x="159" y="96" width="1661" height="1004" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603146936864">
       <screen x="59" y="24" width="1861" height="1176" />
     </state>
