@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e930e3-2a36-4f4d-8d51-c219100b726f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bracket_Matcher.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Min_Window_Substring/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Min_Window_Substring.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Min_Window_Substring/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree_Constructor/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tree_Constructor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree_Constructor/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bracket_Matcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bracket_Matcher.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,7 @@
       <workItem from="1603353717221" duration="678000" />
       <workItem from="1603543222687" duration="599000" />
       <workItem from="1603615985032" duration="1270000" />
-      <workItem from="1603651738094" duration="7130000" />
+      <workItem from="1603651738094" duration="7762000" />
     </task>
     <servers />
   </component>

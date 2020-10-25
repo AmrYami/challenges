@@ -2,15 +2,12 @@
 
 function BracketMatcher($str)
 {
-    $string = preg_replace("/[a-zA-Z0-9\s-]/", "", $str);// remove all chars and spaces
-    $string = preg_replace("/[^\(\)]/", "", $string);//remove all special chars without what we need
+    $string = preg_replace('`()|([^)(]+)`','',$str);//remove all chars without what we need
     $result = RemoveBrackets($string);// send to RemoveBrackets
     if (strlen($result) > 0)
         return '0';
      else
         return '1';
-
-
 }
 
 function RemoveBrackets($string)
