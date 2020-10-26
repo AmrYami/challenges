@@ -23,19 +23,19 @@ function QuestionsMarks($str)
     $countQuestionMarks = 0;
     for ($i = 0; $i < strlen($str); $i++) {
         if (is_numeric($str[$i]) && !$check) {
-            $start = $str[$i];
+            $start = $str[$i];//set the first number in $start
             $check = true;
-        } elseif ($start) {
+        } elseif ($start) {//if start has value
             if ($str[$i] == '?')
-                $countQuestionMarks++;
-            if (is_numeric($str[$i]) && $check) {
+                $countQuestionMarks++;//increase questionmark after get one
+            if (is_numeric($str[$i]) && $check) {//get second number
                 $end = $str[$i];
-                if (($start + $end) == 10) {
+                if (($start + $end) == 10) {//if start and end == 10
                     if ($countQuestionMarks != 3)
-                        return 'false';
+                        return 'false';// if start and end = 10 and question mark != 3
                     else
-                        $result = 'true';
-                    $start = $str[$i];
+                        $result = 'true';// if start and end = 10 and question mark = 3
+                    $start = $str[$i];//put end value in start value
                     $end = 0;
                     $countQuestionMarks = 0;
                 }
@@ -47,34 +47,3 @@ function QuestionsMarks($str)
 
 
 echo QuestionsMarks("acc?7??sss?3rr1??????5");
-
-echo '<br><br><br><br><br>';
-
-function QuestionsMarksa($str)
-{
-
-    $qm_count = $last_digit = 0;
-    $result = 'false';
-
-    for ($p = 0; $p < strlen($str); $p++) {
-        $c = $str[$p];
-        if ($c == '?') {
-            $qm_count++;
-        } elseif (ctype_digit($c)) {
-            if ($last_digit + $c == 10) {
-                if ($qm_count != 3) {
-                    return 'false';
-                }
-                $result = 'true';
-            }
-            $last_digit = $c;
-            $qm_count = 0;
-        }
-    }
-
-    return $result;
-}
-
-
-// keep this function call here
-echo QuestionsMarksa('acc?7??sss?3rr1??????5');
