@@ -1,5 +1,4 @@
 <?php
-
 /*
  * Using the PHP language, have the function Division(num1,num2)
  * take both parameters being passed and return the Greatest Common Factor.
@@ -9,7 +8,6 @@
  * Input = 7 & num2 = 3 Output = 1
  * Input = 36 & num2 = 54 Output = 18
  */
-
 function Division($num1, $num2) {
     $firstDiv = getDivisionNums($num1);
     $secondDiv = getDivisionNums($num2);
@@ -26,5 +24,4 @@ function getDivisionNums($num) {
     }
     return $divisors;
 }
-
 echo Division(36, 54);
