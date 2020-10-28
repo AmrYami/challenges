@@ -14,7 +14,7 @@ Division
 Division Stringified
 Distinct List
 Check Nums
-
+Letter Capitalize
 
 
 
