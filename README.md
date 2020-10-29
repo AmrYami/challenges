@@ -19,6 +19,7 @@ String Scramble,
 Array Addition,
 Simple Symbols,
 Second GreatLow,
+Prime Number,
 
 
 
