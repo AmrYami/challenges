@@ -17,7 +17,7 @@ Check Nums,
 Letter Capitalize,
 String Scramble,
 Array Addition,
-
+Simple Symbols,
 
 
 
