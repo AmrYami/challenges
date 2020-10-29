@@ -16,6 +16,7 @@ Distinct List,
 Check Nums,
 Letter Capitalize,
 String Scramble,
+Array Addition,
 
 
 
@@ -24,3 +25,40 @@ String Scramble,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        echo '<br><br><br><br><br>';
+//        echo '<pre>';
+//        print_r($highestKeyOfVal);
+//        echo '</pre>';
+//echo '<br><br><br><br><br>';
