@@ -20,6 +20,7 @@ Array Addition,
 Simple Symbols,
 Second GreatLow,
 Prime Number,
+Prime Checker,
 
 
 
@@ -50,16 +51,3 @@ Prime Number,
 
 
 
-
-
-
-
-
-
-
-
-//        echo '<br><br><br><br><br>';
-//        echo '<pre>';
-//        print_r($highestKeyOfVal);
-//        echo '</pre>';
-//echo '<br><br><br><br><br>';
