@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e930e3-2a36-4f4d-8d51-c219100b726f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CaesarCipher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -70,7 +68,7 @@
       <workItem from="1603877749167" duration="769000" />
       <workItem from="1603922096716" duration="7795000" />
       <workItem from="1603991085376" duration="18198000" />
-      <workItem from="1604079304466" duration="5383000" />
+      <workItem from="1604079304466" duration="6038000" />
     </task>
     <servers />
   </component>

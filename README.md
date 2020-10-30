@@ -26,7 +26,7 @@ Number Encoding,
 Letter Count,
 Formatted Division,
 Caesar Cipher,
-
+Word Count,
 
 
 
