@@ -24,8 +24,7 @@ Prime Checker,
 Number Search,
 Number Encoding,
 Letter Count,
-
-
+Formatted Division,
 
 
 
