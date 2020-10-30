@@ -23,7 +23,7 @@ Prime Number,
 Prime Checker,
 Number Search,
 Number Encoding,
-
+Letter Count,
 
 
 
