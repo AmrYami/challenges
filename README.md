@@ -32,7 +32,7 @@ Alphabet Soup,
 Arith Geo,
 Ex Oh,
 Letter Changes,
-
+Palindrome,
 
 
 
