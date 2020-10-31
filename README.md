@@ -34,6 +34,7 @@ Ex Oh,
 Letter Changes,
 Palindrome,
 Time Convert,
+Vowel Count,
 
 
 
