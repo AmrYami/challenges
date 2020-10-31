@@ -38,7 +38,7 @@ Vowel Count,
 Prime Mover,
 Run Length,
 Prime Time,
-
+Swap Case,
 
 
 
