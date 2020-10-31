@@ -29,7 +29,7 @@ Caesar Cipher,
 Word Count,
 Ab Check,
 Alphabet Soup,
-
+Arith Geo,
 
 
 
