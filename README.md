@@ -42,6 +42,7 @@ Swap Case,
 powers of two,
 Off Line Minimum,
 Superincreasing,
+Matrix Challenge,
 
 
 
