@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e930e3-2a36-4f4d-8d51-c219100b726f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MatrixChallenge.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixChallenge.php" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixChallenge.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <workItem from="1605000267328" duration="599000" />
       <workItem from="1605006989759" duration="599000" />
       <workItem from="1605035982869" duration="5240000" />
-      <workItem from="1605046720558" duration="3673000" />
+      <workItem from="1605046720558" duration="3833000" />
     </task>
     <servers />
   </component>

@@ -35,7 +35,7 @@ function MatrixChallenge($strArr)
         $strArray = str_split($word);
         $GLOBALS['wordProccess'] = $strArray;// set current word as global variable
         $countFirstChar = preg_match_all('/[' . $word[0] . ']/', $tempMat);// count first char of word in matrix
-        $res = startSearching($word, $countFirstChar, $strArray);// start searching
+        $res = startSearching($countFirstChar, $strArray);// start searching
         if (!$res)// if this word didnt exist in mat push it in $wordsDontExist
             $wordsDontExist[] = $word;
     }
@@ -44,7 +44,7 @@ function MatrixChallenge($strArr)
     return 'true';
 }
 
-function startSearching($word, $countFirstChar, $tmp)
+function startSearching($countFirstChar, $tmp)
 {
     $oldKeys = [];
 
@@ -163,6 +163,8 @@ function storeKeys()
     return $data;
 }
 
-//echo MatrixChallenge(array("aaey, rrum, tgmn, ball", "raeymnl,xx"));
+echo MatrixChallenge(array("aaey, rrum, tgmn, ball", "raeymnl,xx"));
+echo '<br>';
 echo MatrixChallenge(array("aaey, rrum, tgmn, ball", "all,raeymnl,ball,mur,rumk,tall,true,trum,yes"));
-//echo MatrixChallenge(array("aaey, rrum, tgmn, ball", "all,ball,mur,raeymnl,tall,true,trum"));
+echo '<br>';
+echo MatrixChallenge(array("aaey, rrum, tgmn, ball", "all,ball,mur,raeymnl,tall,true,trum"));
