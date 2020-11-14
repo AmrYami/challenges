@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12e930e3-2a36-4f4d-8d51-c219100b726f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixChallenge.php" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixChallenge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../design-patterns-withSolid" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -94,6 +94,7 @@
       <workItem from="1605006989759" duration="599000" />
       <workItem from="1605035982869" duration="5240000" />
       <workItem from="1605046720558" duration="3833000" />
+      <workItem from="1605308581076" duration="1620000" />
     </task>
     <servers />
   </component>
@@ -109,10 +110,11 @@
       <screen x="59" y="24" width="1861" height="1176" />
     </state>
     <state x="724" y="300" width="530" height="596" key="FileChooserDialogImpl/59.24.1861.1176@59.24.1861.1176" timestamp="1603991100596" />
-    <state x="738" y="507" width="500" height="181" key="NewPhpFileDialog" timestamp="1604183214612">
-      <screen x="59" y="24" width="1861" height="1176" />
+    <state x="746" y="509" width="497" height="190" key="NewPhpFileDialog" timestamp="1605318621418">
+      <screen x="72" y="27" width="1848" height="1173" />
     </state>
     <state x="738" y="507" width="500" height="181" key="NewPhpFileDialog/59.24.1861.1176@59.24.1861.1176" timestamp="1604183214612" />
+    <state x="746" y="509" width="497" height="190" key="NewPhpFileDialog/72.27.1848.1173@72.27.1848.1173" timestamp="1605318621418" />
     <state x="159" y="96" width="1661" height="1004" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604969128834">
       <screen x="59" y="24" width="1861" height="1176" />
     </state>
