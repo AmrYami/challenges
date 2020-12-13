@@ -1,15 +1,7 @@
 <?php
 
-function FirstFactorial($num) {
-    if ($num >= 1) {
-        $total = $num;
-        for ($i = 1; $i < $num; $i++) {
-            $total = $total * $i;
-        }
-        return $total;
-    }
-    return false;
+function factorial($num) {
+    return array_product(range(1, $num));
 }
-
 // keep this function call here
-echo FirstFactorial(10);
+echo factorial(10);
