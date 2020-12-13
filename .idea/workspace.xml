@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12e930e3-2a36-4f4d-8d51-c219100b726f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_Factorial.php" beforeDir="false" afterPath="$PROJECT_DIR$/First_Factorial.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,40 +130,12 @@
       <workItem from="1607589376648" duration="599000" />
       <workItem from="1607711860292" duration="599000" />
       <workItem from="1607809238811" duration="599000" />
-      <workItem from="1607870723032" duration="2306000" />
+      <workItem from="1607870723032" duration="3338000" />
+      <workItem from="1607887867363" duration="1027000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="544" y="381" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603756109731">
-      <screen x="59" y="24" width="1861" height="1176" />
-    </state>
-    <state x="544" y="381" key="#com.intellij.fileTypes.FileTypeChooser/59.24.1861.1176@59.24.1861.1176" timestamp="1603756109731" />
-    <state x="732" y="302" width="530" height="596" key="FileChooserDialogImpl" timestamp="1605488667631">
-      <screen x="72" y="27" width="1848" height="1173" />
-    </state>
-    <state x="724" y="300" width="530" height="596" key="FileChooserDialogImpl/59.24.1861.1176@59.24.1861.1176" timestamp="1603991100596" />
-    <state x="732" y="302" key="FileChooserDialogImpl/72.27.1848.1173@72.27.1848.1173" timestamp="1605488667631" />
-    <state x="746" y="509" width="497" height="190" key="NewPhpFileDialog" timestamp="1606266467099">
-      <screen x="72" y="27" width="1848" height="1173" />
-    </state>
-    <state x="738" y="507" width="500" height="181" key="NewPhpFileDialog/59.24.1861.1176@59.24.1861.1176" timestamp="1604183214612" />
-    <state x="746" y="509" width="497" height="190" key="NewPhpFileDialog/72.27.1848.1173@72.27.1848.1173" timestamp="1606266467099" />
-    <state x="159" y="96" width="1661" height="1004" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604969128834">
-      <screen x="59" y="24" width="1861" height="1176" />
-    </state>
-    <state x="159" y="96" width="1661" height="1004" key="com.intellij.history.integration.ui.views.FileHistoryDialog/59.24.1861.1176@59.24.1861.1176" timestamp="1604969128834" />
-    <state x="345" y="90" width="1311" height="1021" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606184397180">
-      <screen x="72" y="27" width="1848" height="1173" />
-    </state>
-    <state x="334" y="87" width="1311" height="1021" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/59.24.1861.1176@59.24.1861.1176" timestamp="1604870962463" />
-    <state x="345" y="90" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1173@72.27.1848.1173" timestamp="1606184397180" />
-    <state x="108" y="136" width="1673" height="1047" key="find.popup" timestamp="1604111880566">
-      <screen x="59" y="24" width="1861" height="1176" />
-    </state>
-    <state x="108" y="136" width="1673" height="1047" key="find.popup/59.24.1861.1176@59.24.1861.1176" timestamp="1604111880566" />
   </component>
 </project>
