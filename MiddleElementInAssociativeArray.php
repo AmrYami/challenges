@@ -44,10 +44,28 @@ function oddProduct($n)
 echo oddProduct(5);
 echo '<br>';
 //find lost number in array
-function getLostNumber($array = []){
+function getLostNumber($array = [])
+{
 
-$arr2 = range(1,max($array));
+    $arr2 = range(1, max($array));
 
-return array_diff($arr2,$array);
+    return array_diff($arr2, $array);
 }
-print_r(getLostNumber([1,2,3,4,5,6,7,9,11]));
+
+print_r(getLostNumber([1, 2, 3, 4, 5, 6, 7, 9, 11]));
+
+echo '<br>';
+function toggleValue($num)
+{
+    return $num ^= 1;
+}
+
+echo toggleValue(0);
+
+echo '<br>';
+
+function toggleValue1($num)
+{
+    return (int) !$num;
+}
+echo toggleValue1(1);

@@ -47,6 +47,8 @@ Palindrome Two,
 Matching Couples,
 City Traffic,
 MiddleElementInAssociativeArray,
+Wildcard Characters,
+
 
 
 
