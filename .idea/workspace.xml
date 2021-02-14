@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e930e3-2a36-4f4d-8d51-c219100b726f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stringFollowsPattern.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixChallenge.php" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixChallenge.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +149,7 @@
       <workItem from="1609318982234" duration="1851000" />
       <workItem from="1609813023124" duration="443000" />
       <workItem from="1613217757537" duration="18138000" />
-      <workItem from="1613295031417" duration="6033000" />
+      <workItem from="1613295031417" duration="11917000" />
     </task>
     <servers />
   </component>

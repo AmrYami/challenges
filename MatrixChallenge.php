@@ -40,7 +40,7 @@ function MatrixChallenge($strArr)
             $wordsDontExist[] = $word;
     }
     if (count($wordsDontExist))
-    return implode(',', $wordsDontExist);
+        return implode(',', $wordsDontExist);
     return 'true';
 }
 
@@ -52,7 +52,7 @@ function startSearching($countFirstChar, $tmp)
         $GLOBALS['wordProccess'] = $tmp;// reset the word as a current word
         $n = 0;
         $res = getStartKey($GLOBALS['wordProccess'][$n]);// get start key in matrix to start
-        if ($res) {
+        if ($res != 'false') {
             // if there's result so the current char is exist so add it to oldKeys and remove it from global word and set next char in global start key and remove it from matrix
             $oldKeys[] = ['level' => $GLOBALS['startKey']['level'], 'key' => $GLOBALS['startKey']['key'], 'char' => $GLOBALS['wordProccess'][0]];
             array_shift($GLOBALS['wordProccess']);
