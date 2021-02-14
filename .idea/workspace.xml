@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e930e3-2a36-4f4d-8d51-c219100b726f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/coderbyte.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coderbyte.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stringFollowsPattern.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbCheck.php" beforeDir="false" afterPath="$PROJECT_DIR$/AbCheck.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlphabetSoup.php" beforeDir="false" afterPath="$PROJECT_DIR$/AlphabetSoup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArithGeo.php" beforeDir="false" afterPath="$PROJECT_DIR$/ArithGeo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bracket_Matcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bracket_Matcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaesarCipher.php" beforeDir="false" afterPath="$PROJECT_DIR$/CaesarCipher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CityTraffic.php" beforeDir="false" afterPath="$PROJECT_DIR$/CityTraffic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codeland_Username_Validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Codeland_Username_Validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExOh.php" beforeDir="false" afterPath="$PROJECT_DIR$/ExOh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Find_Intersection.php" beforeDir="false" afterPath="$PROJECT_DIR$/Find_Intersection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_Factorial.php" beforeDir="false" afterPath="$PROJECT_DIR$/First_Factorial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_Reverse.php" beforeDir="false" afterPath="$PROJECT_DIR$/First_Reverse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormattedDivision.php" beforeDir="false" afterPath="$PROJECT_DIR$/FormattedDivision.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LetterChanges.php" beforeDir="false" afterPath="$PROJECT_DIR$/LetterChanges.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LetterCount.php" beforeDir="false" afterPath="$PROJECT_DIR$/LetterCount.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Longest_Word.php" beforeDir="false" afterPath="$PROJECT_DIR$/Longest_Word.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatchingCouples.php" beforeDir="false" afterPath="$PROJECT_DIR$/MatchingCouples.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixChallenge.php" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixChallenge.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiddleElementInAssociativeArray.php" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleElementInAssociativeArray.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Min_Window_Substring.php" beforeDir="false" afterPath="$PROJECT_DIR$/Min_Window_Substring.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumberEncoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/NumberEncoding.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OffLineMinimum.php" beforeDir="false" afterPath="$PROJECT_DIR$/OffLineMinimum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Palindrome.php" beforeDir="false" afterPath="$PROJECT_DIR$/Palindrome.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PalindromeTwo.php" beforeDir="false" afterPath="$PROJECT_DIR$/PalindromeTwo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimeMover.php" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeMover.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimeTime.php" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeTime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questions_Marks.php" beforeDir="false" afterPath="$PROJECT_DIR$/Questions_Marks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunLength.php" beforeDir="false" afterPath="$PROJECT_DIR$/RunLength.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL_Member_Count" beforeDir="false" afterPath="$PROJECT_DIR$/SQL_Member_Count" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple_Mode.php" beforeDir="false" afterPath="$PROJECT_DIR$/Simple_Mode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Superincreasing.php" beforeDir="false" afterPath="$PROJECT_DIR$/Superincreasing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwapCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/SwapCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimeConvert.php" beforeDir="false" afterPath="$PROJECT_DIR$/TimeConvert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree_Constructor.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tree_Constructor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VowelCount.php" beforeDir="false" afterPath="$PROJECT_DIR$/VowelCount.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordCount.php" beforeDir="false" afterPath="$PROJECT_DIR$/WordCount.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_addition.php" beforeDir="false" afterPath="$PROJECT_DIR$/array_addition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_nums.php" beforeDir="false" afterPath="$PROJECT_DIR$/check_nums.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distinct_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/distinct_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/division.php" beforeDir="false" afterPath="$PROJECT_DIR$/division.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/division_stringified.php" beforeDir="false" afterPath="$PROJECT_DIR$/division_stringified.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter_capitalize.php" beforeDir="false" afterPath="$PROJECT_DIR$/letter_capitalize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/number_search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/powers_of_two.php" beforeDir="false" afterPath="$PROJECT_DIR$/powers_of_two.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prime_checker.php" beforeDir="false" afterPath="$PROJECT_DIR$/prime_checker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prime_number.php" beforeDir="false" afterPath="$PROJECT_DIR$/prime_number.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_greatLow.php" beforeDir="false" afterPath="$PROJECT_DIR$/second_greatLow.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_symbols.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_symbols.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_scramble.php" beforeDir="false" afterPath="$PROJECT_DIR$/string_scramble.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +29,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/longest_matrix_path" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -198,7 +148,8 @@
       <workItem from="1609270862071" duration="599000" />
       <workItem from="1609318982234" duration="1851000" />
       <workItem from="1609813023124" duration="443000" />
-      <workItem from="1613217757537" duration="16499000" />
+      <workItem from="1613217757537" duration="18138000" />
+      <workItem from="1613295031417" duration="6033000" />
     </task>
     <servers />
   </component>
