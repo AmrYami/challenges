@@ -46,8 +46,21 @@ Matrix Challenge,
 Palindrome Two,
 Matching Couples,
 City Traffic,
-MiddleElementInAssociativeArray,
+Middle Element In Associative Array,
 Wildcard Characters,
+Bracket Combinations,
+first Unique Character In String,
+String Challenge,
+string Follows Pattern,
+Superincreasing
+
+
+
+
+
+
+
+
 
 
 
