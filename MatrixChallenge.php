@@ -2,9 +2,9 @@
 
 /*
 Using php8 if you going to use php 7. You will get lots of errors
- * 1 - we split first key in array as array and it wil be our matrix array
- * 2 - we split every word in second array
- * 3 - we will take first word and split it
+ * 1 - split first key in array as array and it wil be our matrix array
+ * 2 - split every word in second array
+ * 3 - will take first word and split it
  * 4 - get first char of word in matrix array and remove it from matrix array and add it in old chars array
  * 5 - get all chars between this char and put them in array as before, after, current
  * 6 - get next char of the word and search in array (before, after, current) if we get it remove it from matrix array
