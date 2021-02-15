@@ -1,6 +1,7 @@
 <?php
 
 /*
+Using php8 if you going to use php 7. You will get lots of errors
  * 1 - we split first key in array as array and it wil be our matrix array
  * 2 - we split every word in second array
  * 3 - we will take first word and split it
