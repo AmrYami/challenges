@@ -15,8 +15,6 @@
 //Search for any help or documentation you might need for this problem. For example: array indexing, Ruby hash tables, etc.
 
 //PHP8
-//3125678910111213414
-
 function StringChallenge($str)
 {
 $resultInString = '';
@@ -32,11 +30,9 @@ $resultInString = '';
     array_shift($arr);
     $next = $arr1[count($arr1) - 1];
     array_pop($arr1);
-
-//    $result[$first] = strlen(implode(' ', $arr1));
-    $resultInString .= strlen($first) . '=' . strlen(implode(' ', $arr1)). ' ';
+    $resArr1 = strlen(implode(' ', $arr1)) ?? '0 ';
+    $resultInString .= strlen($first) . '=' . $resArr1 . ' ';
     $resulAsArray = recursive($arr, $next, $resultInString, $last);
-//   $resultInString = swapToString($resulAsArray);
     return $resulAsArray;
 }
 
@@ -46,15 +42,16 @@ function recursive($arr, $current, $resultInString, $last)
     array_shift($arr);
     $next = $arr1[count($arr1) - 1];
     array_pop($arr1);
-    $resultInString .= strlen($current) . '=' . strlen(implode(' ', $arr1)). ' ';
+    $resArr1 = strlen(implode(' ', $arr1))  ?? '0';
+    $resultInString .= strlen($current) . '=' . $resArr1 . ' ';
     if (count($arr) == 0) {
-        $last = $last != 0 ? strlen($last) : '0';
+        $last = $last != '0' ? strlen($last) : '0';
         $resultInString .= strlen($next) . '=' . $last;
         return $resultInString;
     } else
         return recursive($arr, $next, $resultInString, $last);
 }
 
-echo StringChallenge("letters=A B Z T numbers=1 2 26 20 combine=true");
+//echo StringChallenge("letters=A B Z T numbers=1 2 26 20 combine=true");
 echo '<br>';
 echo StringChallenge("a=3 b=4 a=23 b=a 4 23 c=");
