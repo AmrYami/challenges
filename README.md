@@ -52,7 +52,8 @@ Bracket Combinations,
 first Unique Character In String,
 String Challenge,
 string Follows Pattern,
-Superincreasing
+Superincreasing,
+stringHasSameCountChars,
 
 
 
