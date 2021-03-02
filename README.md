@@ -54,6 +54,7 @@ String Challenge,
 string Follows Pattern,
 Superincreasing,
 stringHasSameCountChars,
+rowSumOddNumbers,
 
 
 
