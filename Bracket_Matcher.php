@@ -29,7 +29,8 @@ echo main('[({[({[(asdf{[({[({[({}sdfg)]})]})]})]})]})]');
 
 function main($A)
 {
-
+if($A == '')
+        return false;
     $stack = new Stack();
     return $stack->matcher($A);
 

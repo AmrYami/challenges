@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e930e3-2a36-4f4d-8d51-c219100b726f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rowSumOddNumbers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bracket_Matcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/Bracket_Matcher.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../maqraa" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../design-patterns" />
+>>>>>>> 6c16899b8a3f970ce4673474207842959e5254a7
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -156,12 +160,28 @@
       <workItem from="1613925935102" duration="599000" />
       <workItem from="1614103968170" duration="598000" />
       <workItem from="1614440287709" duration="599000" />
+<<<<<<< HEAD
       <workItem from="1614622535080" duration="6927000" />
       <workItem from="1616833190325" duration="5263000" />
+=======
+      <workItem from="1614622535080" duration="6213000" />
+      <workItem from="1614688327852" duration="3783000" />
+>>>>>>> 6c16899b8a3f970ce4673474207842959e5254a7
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
