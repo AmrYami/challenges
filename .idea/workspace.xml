@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../maqraa" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -156,7 +156,8 @@
       <workItem from="1613925935102" duration="599000" />
       <workItem from="1614103968170" duration="598000" />
       <workItem from="1614440287709" duration="599000" />
-      <workItem from="1614622535080" duration="6213000" />
+      <workItem from="1614622535080" duration="6927000" />
+      <workItem from="1616833190325" duration="5263000" />
     </task>
     <servers />
   </component>

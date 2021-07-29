@@ -25,7 +25,7 @@ echo BracketMatcher('fge ts(fop en(p hp2 ( 34 aa d://st din, r))');
 echo '<br>';
 
 
-echo main('[({[({[({[({[({[({})]})]})]})]})]})]');
+echo main('[({[({[(asdf{[({[({[({}sdfg)]})]})]})]})]})]');
 
 function main($A)
 {
