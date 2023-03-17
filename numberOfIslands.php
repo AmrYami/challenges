@@ -1,88 +1,99 @@
 <?php
+// Program to count islands
+// in boolean 2D matrix
 
-$matrix = [];
-$tempMatrix = [];
-$numberOfIsland = 0;
+$ROW = 5;
+$COL = 5;
 
-function islands(
-    $matrix,
-    $n,
-    $firstRow = 0,
-    $secondRow = 1,
-    $firstIndex = 0,
-    $secondIndex = 0,
-    $tree = false,
-    $tempN = []
-) {
-    $GLOBALS['matrix'] = $matrix;
-    if ($secondIndex >= count($GLOBALS['matrix'][0])) {
-        $secondIndex = 0;
-    }
-    $firstRow = $firstRow;
-    $firstIndex = $firstIndex;
-    $secondRow = $secondRow;
-    $secondIndex = $secondIndex;
-    $x = $matrix[$firstRow][$firstIndex];//first index
-    $y = $matrix[$secondRow][$secondIndex];// next index
-    if ($matrix[$secondRow][$secondIndex] == 1) {
-        //$n next array values push array[index of array, index in array, value]
-        $n[] = [$secondRow, $secondIndex, $matrix[$secondRow][$secondIndex]];
-    }
+// A function to check if a
+// given cell (row, col) can
+// be included in DFS
+function isSafe(&$M, $row, $col,
+    &$visited)
+{
+    global $ROW, $COL;
 
-    if (isset($matrix[$firstRow][$firstIndex]) &&
-        $x == 1 && !$tree) {
-        $GLOBALS['numberOfIsland'] += 1;
-        $GLOBALS['matrix'][$firstRow][$firstIndex] = 2;
-        $firstIndex += 1;
-        $secondIndex += 1;
-        $x = $matrix[$firstRow][$firstIndex];
-        $y = $matrix[$firstRow][$firstIndex + 1];
-
-        if ($matrix[$secondRow][$secondIndex] == 1) {
-            $n[] = [$secondRow, $secondIndex, $matrix[$secondRow][$secondIndex]];
-            $n = array_map("unserialize", array_unique(array_map("serialize", $n)));
-        }
-
-        islands($GLOBALS['matrix'], $n, $firstRow, $secondRow, $firstIndex, $secondIndex);
-    } elseif (!$tree) {
-        $GLOBALS['tempMatrix'][] = $GLOBALS['matrix'][0];
-        array_shift($GLOBALS['matrix']);
-        islands($GLOBALS['matrix'], $n, $firstRow, $secondRow, $firstIndex, $secondIndex, true);
-    } else {
-        $n = array_map("unserialize", array_unique(array_map("serialize", $n)));
-        if ($GLOBALS['matrix'][$n[0][0]][$n[0][1]] == 1) {
-            $GLOBALS['matrix'][$n[0][0] - 1][$n[0][1]] = 2;
-            $tempN[] = [$n[0][0], $n[0][1], $GLOBALS['matrix'][$n[0][0]][$n[0][1]]];
-        }
-
-        array_shift($n);
-        if (!count($n)) {
-
-            $GLOBALS['matrix'][$n[0][0] - 1][$n[0][1]] = 2;
-            $GLOBALS['tempMatrix'][] = $GLOBALS['matrix'][0];
-            array_shift($GLOBALS['matrix']);
-            echo '<pre>';
-            print_r($GLOBALS['matrix'][$n[0][0]]);
-            print_r($n);
-            print_r($tempN);
-            print_r($GLOBALS['matrix'][0]);
-            print_r($GLOBALS['tempMatrix']);
-            echo '</pre>';
-            die();
-            $n = $tempN;
-            $tempN = [];
-
-        }
-
-        islands($GLOBALS['matrix'], $n, $firstRow, $secondRow, $firstIndex, $secondIndex, true);
-
-    }
+    // row number is in range,
+    // column number is in
+    // range and value is 1
+    // and not yet visited
+    return ($row >= 0) && ($row < $ROW) &&
+        ($col >= 0) && ($col < $COL) &&
+        ($M[$row][$col] &&
+            !isset($visited[$row][$col]));
 }
 
+// A utility function to do DFS
+// for a 2D boolean matrix. It
+// only considers the 8 neighbours
+// as adjacent vertices
+function DFS(&$M, $row, $col,
+    &$visited)
+{
+    // These arrays are used to
+    // get row and column numbers
+    // of 8 neighbours of a given cell
+    $rowNbr = array(-1, -1, -1, 0,
+        0, 1, 1, 1);
+    $colNbr = array(-1, 0, 1, -1,
+        1, -1, 0, 1);
 
-islands([
+    // Mark this cell as visited
+    $visited[$row][$col] = true;
+
+    // Recur for all
+    // connected neighbours
+    for ($k = 0; $k < 8; ++$k)
+        if (isSafe($M, $row + $rowNbr[$k],
+            $col + $colNbr[$k], $visited))
+            DFS($M, $row + $rowNbr[$k],
+                $col + $colNbr[$k], $visited);
+}
+
+// The main function that returns
+// count of islands in a given
+// boolean 2D matrix
+function countIslands(&$M)
+{
+    global $ROW, $COL;
+
+    // Make a bool array to
+    // mark visited cells.
+    // Initially all cells
+    // are unvisited
+    $visited = array(array());
+
+    // Initialize count as 0 and
+    // traverse through the all
+    // cells of given matrix
+    $count = 0;
+    for ($i = 0; $i < $ROW; ++$i)
+        for ($j = 0; $j < $COL; ++$j)
+            if ($M[$i][$j] &&
+                !isset($visited[$i][$j])) // If a cell with value 1
+            {                               // is not visited yet,
+                DFS($M, $i, $j, $visited); // then new island found
+                ++$count;                   // Visit all cells in this
+            }                               // island and increment
+    // island count.
+
+    return $count;
+}
+
+// Driver Code
+$second = array(array(1, 1, 0, 0, 0),
+    array(0, 1, 0, 0, 1),
+    array(1, 0, 0, 1, 1),
+    array(0, 0, 0, 0, 0),
+    array(1, 0, 1, 0, 1));
+$first = [
     ["1", "1", "1", "1", "0"],
     ["1", "1", "0", "1", "0"],
-    ["1", "1", "1", "0", "0"],
+    ["1", "1", "1", "0", "1"],
     ["0", "0", "0", "0", "1"]
-], []);
+];
+echo "Number of islands is: ",
+countIslands($first);
+
+// This code is contributed
+// by ChitraNayal
