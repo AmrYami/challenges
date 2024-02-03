@@ -55,6 +55,7 @@ string Follows Pattern,
 Superincreasing,
 stringHasSameCountChars,
 rowSumOddNumbers,
+AgeCounting,
 GasStation,
 
 
